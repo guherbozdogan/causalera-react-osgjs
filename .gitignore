@@ -3,6 +3,7 @@
 node_modules
 qunit
 sandbox
+dist/index.js
 .idea
 .idea/**
 .idea/vcs.xml
