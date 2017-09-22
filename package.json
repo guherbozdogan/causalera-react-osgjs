@@ -1,0 +1,38 @@
+{
+  "name": "causalera-react-osgjs",
+  "version": "1.0.0",
+  "description": "A binding of osgjs to react",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "prepublish": "babel --plugins transform-es2015-modules-umd src --ignore __tests__ --out-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guherbozdogan/causalera-react-osgjs.git"
+  },
+  "keywords": [
+    "react",
+    "osgjs"
+  ],
+  "author": "Guher Bozdogan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guherbozdogan/causalera-react-osgjs/issues"
+  },
+  "homepage": "https://github.com/guherbozdogan/causalera-react-osgjs#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0"
+  }
+}
